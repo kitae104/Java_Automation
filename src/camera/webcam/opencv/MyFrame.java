@@ -1,4 +1,4 @@
-package webcam.opencv;
+package camera.webcam.opencv;
 
 import java.awt.FlowLayout;
 import java.awt.Image;

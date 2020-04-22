@@ -1,4 +1,4 @@
-package webcam.opencv;
+package camera.webcam.opencv;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

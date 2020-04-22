@@ -1,4 +1,4 @@
-package webcam.opencv;
+package camera.webcam.opencv;
 
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
