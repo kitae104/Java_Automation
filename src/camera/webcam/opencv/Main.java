@@ -6,12 +6,13 @@ import org.opencv.videoio.VideoCapture;
 
 public class Main {
 
-	static {
-		// Load the native OpenCV library
+	static {		
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+//		System.loadLibrary("opencv_java430");
 	}
 
 	public static void main(String[] args) {
+		
 		// Register the default camera
 		VideoCapture cap = new VideoCapture();
 		cap.open(0);

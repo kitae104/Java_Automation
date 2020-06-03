@@ -19,7 +19,8 @@ public class MyFrame {
 		frame = new JFrame();
 		frame.getContentPane().setLayout(new FlowLayout());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		frame.setLocation(1000, 300);
+		
 		// JPanel which is used for drawing image
 		panel = new MyPanel();
 		frame.getContentPane().add(panel);
