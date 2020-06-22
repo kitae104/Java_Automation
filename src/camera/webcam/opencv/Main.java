@@ -6,7 +6,8 @@ import org.opencv.videoio.VideoCapture;
 
 public class Main {
 
-	static {		
+	static {	
+		System.out.println(System.getProperty("java.library.path"));
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 //		System.loadLibrary("opencv_java430");
 	}
